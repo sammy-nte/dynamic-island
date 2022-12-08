@@ -30,8 +30,7 @@ section{
     background-size: cover;
     background-position: center;
 }
-/* 180 40 */
-/* 300 130 */
+
 .container{
     width: 180px;
     height: 36px;
@@ -47,38 +46,18 @@ section{
     -ms-transition: all 350ms ease;
     -o-transition: all 350ms ease;
     position: relative;
-    /* margin-top: 100px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px auto;
+    position: relative;
 }
 
-.music-details-text{
+#airplay,
+.music-details-text,
+.music-timer,
+.control-box{
     display: none;
-}
-
-.music-timer{
-    display: none;
-}
-
-.music-status-img{
-    width: 30px;
-    height: 30px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-}
-
-.spectrum{
-    width: 40px;
-}
-
-.container:hover{
-    width: 90%;
-    height: 130px;
 }
 
 .music-status-container{
@@ -89,37 +68,73 @@ section{
 }
 
 .music-status-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
     margin-left: 10px;
     margin-top: 3px;
 }
 
 .spectrum{
+    width: 40px;
     margin-right: 10px;
 }
 
-.container:hover .music-details{
- display: flex;
- align-items: center;
- width: 70%;
- position: relative;
- /* background: blue; */
+#left-arrow,
+#right-arrow,
+#pause{
+    fill: white;
+    width: 30px;
 }
 
-.container:hover .music-details-text{
-    display: block;
+#right-arrow{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+#airplay{
+    fill: white;
+    position: absolute;
+    bottom: 13px;
+    right: 20px;
+}
+
+.control-box{
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.container:hover{
+    width: 90%;
+    height: 140px;
 }
 
 .container:hover .music-status-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background: teal; */
     width: 90%;
     margin-top: 13px;
     align-self: center;
 }
 
-/* 50 50 */
+.container:hover .music-details{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    position: relative;
+}
+
 .container:hover .music-status-img{
     width: 50px;
     height: 50px;
@@ -129,6 +144,10 @@ section{
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     margin: 0;
+}
+
+.container:hover .music-details-text{
+    display: block;
 }
 
 .container:hover .music-details-text p{
@@ -153,7 +172,6 @@ section{
 
 .container:hover .music-timer{
     width: 90%;
-    /* background: blue; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -185,4 +203,12 @@ section{
     -moz-border-radius: inherit;
     -ms-border-radius: inherit;
     -o-border-radius: inherit;
+}
+
+.container:hover .control-box{
+    display: flex;
+}
+
+.container:hover #airplay{
+    display: block;
 }
