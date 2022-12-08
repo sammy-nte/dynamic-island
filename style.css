@@ -148,9 +148,6 @@ section{
 .container:hover .spectrum{
     width: 40px;
     margin-right: 10px;
-    position: relative;
-    right: -20px;
-    bottom: 10px;
     height: 40px;
 }
 
