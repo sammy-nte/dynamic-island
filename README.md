@@ -17,7 +17,7 @@ This project is a clone of the Apple iPhone 14 Pro Music Player that appears whe
 - The progress bar indicates the current position of the song.
 
 ##Have a look
-[Open](https://sammy-nte.github.io/dynamic-island/)
+-[Open](https://sammy-nte.github.io/dynamic-island/)
 -for good experience open this with a pc/laptop
 
 Made with ❤️
