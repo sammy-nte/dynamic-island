@@ -16,6 +16,9 @@ This project is a clone of the Apple iPhone 14 Pro Music Player that appears whe
 - The album artwork, song title, and artist name are displayed.
 - The progress bar indicates the current position of the song.
 
+##Have a look
+[Open](https://sammy-nte.github.io/dynamic-island/)
+-for good experience open this with a pc/laptop
 
 Made with ❤️
 Feel free to use and modify this project as you see fit.
