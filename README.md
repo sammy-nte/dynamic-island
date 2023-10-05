@@ -1,4 +1,5 @@
-# Apple iPhone 14 Pro Music Player Clone
+# Apple Dynamic Island Replica
+
 
 This project is a clone of the Apple iPhone 14 Pro Music Player that appears when you tap on the pill. However, in this version, the music player shows up when you hover over the pill.
 
